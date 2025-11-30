@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Domain Confusable Checker",
+  "version": "1.0",
+  "description": "Checks domain confusables score and updates icon color.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon-red.png",
+      "48": "icon-red.png",
+      "128": "icon-red.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
